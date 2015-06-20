@@ -13,7 +13,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-public class ChistyMainactivity extends Activity {
+public class ChistyActivitymain extends Activity {
+
     ImageView mImageView;
     ListView mListView;
     Button buttonB1,buttonB2,buttonB3,buttonB4;
@@ -38,7 +39,7 @@ public class ChistyMainactivity extends Activity {
         buttonB1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,B1.class);
+                Intent intent=new Intent(ChistyMainactivity.this,B1.class);
                 startActivity(intent);
 
             }
@@ -49,7 +50,7 @@ public class ChistyMainactivity extends Activity {
         buttonB2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,B2.class);
+                Intent intent=new Intent(ChistyMainactivity.this,B2.class);
                 startActivity(intent);
 
             }
@@ -60,7 +61,7 @@ public class ChistyMainactivity extends Activity {
         buttonB3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,B3.class);
+                Intent intent=new Intent(ChistyMainactivity.this,B3.class);
                 startActivity(intent);
 
             }
@@ -71,7 +72,7 @@ public class ChistyMainactivity extends Activity {
         buttonB4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,B4.class);
+                Intent intent=new Intent(ChistyMainactivity.this,B4.class);
                 startActivity(intent);
 
             }
