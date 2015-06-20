@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_addDiet" android:title="Add Diet" android:orderInCategory="100" />
+    <item android:id="@+id/action_viewHelathCondition" android:title="View Health Condition" android:orderInCategory="101" />
+    <item android:id="@+id/action_viewDoctor" android:title="View Doctor" android:orderInCategory="102" />
+</menu>
