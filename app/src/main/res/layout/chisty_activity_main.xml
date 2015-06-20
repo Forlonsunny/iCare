@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".ChistyMainActivity">
+
+    <ImageView
+        android:id="@+id/header_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="2"
+        android:src="@drawable/images"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/informations_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header_imageview"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header_name"
+            android:textStyle="bold"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#FF707070"
+            android:textSize="17dp"
+            android:text=" Father " />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/button_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:background="#5ebafb"
+        android:layout_weight="3"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/health_con"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="B1"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="5dp"
+                    android:id="@+id/buttonB1" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="B2"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="5dp"
+                    android:id="@+id/buttonB2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="B3"
+                    android:paddingTop="2dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="2dp"
+                    android:id="@+id/buttonB3" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="B4"
+                    android:paddingTop="2dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="2dp"
+                    android:id="@+id/buttonB4" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/hasanvhai"
+        android:layout_alignParentLeft="true"
+
+        android:layout_above="@+id/informations_container"
+        android:layout_marginBottom="-10dp" />
+
+
+
+
+</RelativeLayout>
