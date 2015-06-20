@@ -9,18 +9,27 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/B3.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/B4.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/B4.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/ChartDiet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/ChistyProfile.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/ConditionHealth.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/MedicalDoctor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/ProfileChisty.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/theoakteam/sunny_pc/oakicare/Sunny/Chisty/Vaccination.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_b1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_b1.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_b2.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_b2.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_b3.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_b3.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_b4.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_b4.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_main.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_activity_main.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_profile.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_profile.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/chisty_profile.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/diet_chart.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/diet_chat.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/doctor_medical.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/health_condition.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/health_condition.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/vaccination.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/vaccination.xml" charset="UTF-8" />
   </component>
 </project>

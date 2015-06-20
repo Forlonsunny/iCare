@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-public class MainActivity extends Activity {
+public class ProfileChisty extends Activity {
     ImageView mImageView;
     ListView mListView;
     Button buttonB1,buttonB2,buttonB3,buttonB4;
@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
         buttonB1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,B1.class);
+                Intent intent=new Intent(ProfileChisty.this,HealthCondition.class);
                 startActivity(intent);
 
             }
@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
         buttonB2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,B2.class);
+                Intent intent=new Intent(ProfileChisty.this,B2.class);
                 startActivity(intent);
 
             }
@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
         buttonB3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,B3.class);
+                Intent intent=new Intent(ProfileChisty.this,B3.class);
                 startActivity(intent);
 
             }
@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
         buttonB4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,B4.class);
+                Intent intent=new Intent(ProfileChisty.this,B4.class);
                 startActivity(intent);
 
             }
